@@ -1,4 +1,4 @@
-package org.opencv.samples.tutorial2;
+package org.opencv;
 
 import org.opencv.android.BaseLoaderCallback;
 import org.opencv.android.CameraBridgeViewBase.CvCameraViewFrame;
