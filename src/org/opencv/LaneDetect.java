@@ -20,7 +20,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.WindowManager;
 
-public class Tutorial2Activity extends Activity implements CvCameraViewListener2 {
+public class LaneDetect extends Activity implements CvCameraViewListener2 {
     private static final String    TAG = "OCVSample::Activity";
 
     private static final int       VIEW_MODE_RGBA     = 0;
@@ -68,7 +68,7 @@ public class Tutorial2Activity extends Activity implements CvCameraViewListener2
         }
     };
 
-    public Tutorial2Activity() {
+    public LaneDetect() {
         Log.i(TAG, "Instantiated new " + this.getClass());
     }
 
@@ -219,7 +219,7 @@ public class Tutorial2Activity extends Activity implements CvCameraViewListener2
         } else if (item == mItemPreviewCanny) {
             mViewMode = VIEW_MODE_CANNY;
         } else if (item == mItemPreviewFeatures) {
-            mViewMode = VIEW_MODE_FEATURES;
+            mViewMode = VIEW_MODE_FEATURES; 
         }
 
         return true;
